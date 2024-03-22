@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,29 +19,88 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Cinemas Riwi</title>
 </head>
-<body>
+
+<body class="body">
     <header class="header">
         <h1>Cinemas Riwi</h1>
-        <nav class="ancor">      
-            <a class="color-ancor" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
-                <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
-              </svg> Estrenos</a>
-            <a class="color-ancor" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
-                <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z"/>
-                <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
-              </svg> Cartelera</a>
-            <a class="color-ancor" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-              </svg> Contacto</a>   
+        <nav class="ancor">
+            <a class="color-ancor" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z" />
+                </svg> Estrenos</a>
+            <a class="color-ancor" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+                    <path
+                        d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z" />
+                    <path
+                        d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                </svg> Cartelera</a>
+            <a class="color-ancor" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                </svg> Contacto</a>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <section>
-            
+
+        </section>
+        <h2 class="subtitulos">Cartelera</h2>
+        <section class="peliculas">
+
+            <article class="pelicula">
+                <img src="https://procinal.com/uploads/PELICULAS/Img_movies/Img_360x500/360%20X%20500oppenheimer.jpg"
+                    alt="Oppenheimer">
+                <h3>Oppenheimer (2023) </h3>
+                <p>Durante la Segunda Guerra Mundial, el teniente general Leslie Groves designa al físico J. Robert Oppenheimer para un grupo de trabajo que está desarrollando el Proyecto Manhattan, cuyo objetivo consiste en fabricar la primera bomba atómica.</p>
+            </article>
+            <article class="pelicula">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSntHBIwMMGCBbAtdv1SyVHjl6dBPLX5B9BIZehKIbNmqUjh5bK"
+                    alt="V de venganza">
+                <h3>V de venganza (2005) </h3>
+                <p>Historia de un futuro ficticio donde Inglaterra es un estado fascista y totalitario. Evey, una joven proveniente de la clase trabajadora, es rescatada por "V", un misterioso enmascarado que busca la destrucción del gobierno cruel y corrupto, y la libertad del pueblo.</p>
+            </article>
+            <article class="pelicula">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTb03hR6fYBFpIj8lpnFYXmaU6VedfJrr8H_N9_kJjWAmZZXdEE"
+                    alt="La isla siniestra">
+                <h3>La isla siniestra (2010)</h3>
+                <p>Un alguacil de los años cincuenta persigue a una asesina que escapó de un sanatorio en una isla remota, y hay pistas de hechos macabros cometidos en su interior.</p>
+            </article>
+            <article class="pelicula">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRX8E88h2mWL7mbpEKd4LRXXAQNXkZqem7xrvu5jhhqQ6RfXGIa"
+                    alt="Godzilla y Kong">
+                <h3>Godzilla y Kong: el nuevo imperio (2024)</h3>
+                <p>Godzilla y Kong se enfrentan a una amenaza colosal escondida en lo profundo del planeta, desafiando su propia existencia y la supervivencia de la raza humana.</p>
+            </article>
+            <article class="pelicula">
+                <img src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_split_banner/1/7/3/2/42371-9-esl-CO/3d70fe94059a-warner_dune2_cinecol_510x510.jpg"
+                    alt="Dunne: parte dos">
+                <h3>Duna: parte dos (2024)</h3>
+                <p>Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia. Paul se enfrenta a una elección entre el amor de su vida y el destino del universo, y debe evitar un futuro terrible.</p>
+            </article>
+            <article class="pelicula">
+                <img src="https://procinal.com/uploads/PELICULAS/Img_movies/Img_360x500/360%20X%20500oppenheimer.jpg"
+                    alt="oppenheimer">
+                <h3>Oppenheimer 2023</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, porro, minima adipisci id totam
+                    nobis, repellat tempora dignissimos unde iure ipsum exercitationem error. Voluptatum a sequi ab,
+                    temporibus voluptate accusantium!</p>
+            </article>
+            <article class="pelicula">
+                <img src="https://procinal.com/uploads/PELICULAS/Img_movies/Img_360x500/360%20X%20500oppenheimer.jpg"
+                    alt="oppenheimer">
+                <h3>Oppenheimer 2023</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, porro, minima adipisci id totam
+                    nobis, repellat tempora dignissimos unde iure ipsum exercitationem error. Voluptatum a sequi ab,
+                    temporibus voluptate accusantium!</p>
+            </article>
         </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
