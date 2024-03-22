@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+:root{
+    --azul-claro: #8fc4d5;
+    --blanco: #FFFFFF
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul-claro);
+    color: var(--blanco);
+    padding: 20px;
+}
+
+.ancor{
+    display: flex;
+    gap: 30px;
+}
+
+.color-ancor{
+    color: var(--blanco);
+}
