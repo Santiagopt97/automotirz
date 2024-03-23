@@ -110,32 +110,41 @@
                 <button><a class="color-ancor" href="https://www.bancolombia.com/pagos/multipagos-pse" target="_blank">Comprar Entradas</a></button>
             </article>
         </section>
-        <section id="contacto">
-            <h2 class="titulo-seccion" id="contacto">Contacto</h2>
-            <form action="/" method="post">
-                <legend class="texto-centrado"> ¿Tienes alguna duda o comentario?</legend>
-                <p class="texto-centrado">¡Contáctanos! </p>
-                <fieldset class="campo">
-                    <label for="nombre" name="nombre">Nombre:</label>
-                    <input type="text" class="input" name="nombre" id="nombre" placeholder="Escriba su nombre aquí"
-                        required>
-                </fieldset>
-                <fieldset class="campo">
-                    <label for="correo">Correo: </label>
-                    <input type="email" class="input" name="correo" id="correo" required
-                        placeholder="ejemplo@correo.com">
-                </fieldset>
-                <fieldset class="campo">
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea required class="input" name="mensaje" id="mensaje" cols="20" rows="5"
-                        placeholder="Escriba aquí su mensaje"></textarea>
-                </fieldset>
-                <button type="submit" id="enviar">Enviar</button>
-            </form>
-        </section>
     </main>
     <footer>
-        
+        <section  class="footer" id="contacto">
+            <article>
+                <h2 id="contacto">Contacto</h2>
+                <form action="/" method="post">
+                    <legend > ¿Tienes alguno que decirnos?</legend>
+                    <p class="texto-centro">¡Contáctanos! </p>
+                    <fieldset class="espacio-input">
+                        <label for="nombre" name="nombre">Nombre:</label>
+                        <input type="text" class="input" name="nombre" id="nombre" placeholder="Santiago Pineda"
+                            required>
+                    </fieldset>
+                    <fieldset class="espacio-input">
+                        <label for="correo">Correo: </label>
+                        <input type="email" class="input" name="correo" id="correo" required
+                            placeholder="santiago@correo.com">
+                    </fieldset>
+                    <fieldset class="espacio.input">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea required class="input" name="mensaje" id="mensaje" cols="20" rows="5"
+                            placeholder="Dejanos tu comentario"></textarea>
+                    </fieldset>
+                    <button type="submit" id="enviar">Enviar</button>
+                </form>
+            </article>
+            <article class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.337858174151!2d-75.58618982551722!3d6.219100993768888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi%20-%20Be%20a%20Coder!5e0!3m2!1ses-419!2sco!4v1711217020961!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+        <section class="derechos">
+            <p>Todos los derechos reservados © 2024 Cine Riwi.</p>
+        </section>
+
+    </footer>
     </footer>
 </body>
 

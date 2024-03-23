@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    font-family:'Courier New', Courier, monospace;
-    scroll-behavior: smooth; 
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
 }
 
-:root{
+:root {
     --azul-claro: #8FC4D5;
     --blanco: #FFFFFF;
     --azul-oscurito: #22728c;
     --azul-notanclaro: #5CA0B6;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,24 +28,24 @@
     top: 0px;
 }
 
-.ancor{
+.ancor {
     display: flex;
     gap: 30px;
 }
 
-.color-ancor{
+.color-ancor {
     color: var(--blanco);
     text-decoration: none;
 }
 
-.peliculas{
+.peliculas {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.pelicula{
+.pelicula {
     height: 550px;
     width: 400px;
     display: flex;
@@ -57,7 +57,7 @@
     border: inset black 5px;
 }
 
-.pelicula img{
+.pelicula img {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -65,15 +65,15 @@
     height: 300px;
     border-radius: 25px;
     margin-top: 25px;
-    
+
 }
 
-.pelicula p{
+.pelicula p {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.pelicula button{
+.pelicula button {
     display: flex;
     border-radius: 10px;
     padding: 10px;
@@ -83,61 +83,71 @@
     background-color: var(--azul-oscurito);
 }
 
-.subtitulos{
+.subtitulos {
     margin-top: 100px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.body{
+.body {
     background-color: var(--azul-claro);
-    
+
 }
 
-.estreno{
+.estreno {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.estreno img{
+.estreno img {
     display: flex;
     justify-content: center;
     width: 400px;
     height: 400px;
-   
+
 }
 
+.footer {
+    display: flex;
+    margin-top: 50px;
+    background-color: var(--azul-notanclaro);
+    color: var(--blanco);
+    padding: 20px;
+    justify-content: space-around;
+}
 
 #contacto {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-    }
-    
-    .texto-centrado {
-        text-align: center;
-    }
-    
-    .campo{
-        margin: 10px 0;
-    }
-    
-    .input{
-        border: 2px solid var(--azul-notanclaro);
-        border-radius: 5px;
-        width: 100%;
-        padding: 5px 10px;
-        
-    }
-    
-    
-    #enviar{
-        background-color: var(--azul-oscurito);
-        border-radius: 5px;
-        width: 50%;
-        margin: 5% 25%;
-    }
-    
+    justify-content: space-around;
+}
+
+.texto-centro {
+    text-align: center;
+    margin: 5px;
+}
+
+.espacio-input {
+    margin: 10px 0;
+}
+
+.input {
+    border: 2px solid var(--azul-notanclaro);
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+
+#enviar {
+    background-color: var(--azul-oscurito);
+    border-radius: 5px;
+    width: 50%;
+    margin: 5% 25%;
+}
+
+.derechos {
+    background-color: var(--azul-notanclaro);
+    text-align: center;
+}
