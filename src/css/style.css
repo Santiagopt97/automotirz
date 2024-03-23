@@ -5,6 +5,7 @@
     padding: 0px;
     border: 0px;
     font-family:'Courier New', Courier, monospace;
+    scroll-behavior: smooth; 
 }
 
 :root{
@@ -22,7 +23,9 @@
     color: var(--blanco);
     padding: 20px;
     border-radius: 10px 10px;
-    
+    position: fixed;
+    width: 97%;
+    top: 0px;
 }
 
 .ancor{
@@ -81,7 +84,7 @@
 }
 
 .subtitulos{
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 30px;
     text-align: center;
 }
