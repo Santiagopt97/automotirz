@@ -79,3 +79,17 @@
     background-color: var(--azul-claro);
     
 }
+
+.estreno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estreno img{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+   
+}
